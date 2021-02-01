@@ -1,3 +1,10 @@
+
+//criar o botão Reveal Spoiler
+const $button = $('<button>Reveal Spoiler</button>');
+
+//anexar à página web.
+$('.spoiler').append($button);
+
 // ocultar o spoiler no carregamento da página
 $('.spoiler span').hide();
 // quando o botão é pressionado,
