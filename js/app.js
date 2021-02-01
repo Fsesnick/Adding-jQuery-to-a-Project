@@ -12,7 +12,7 @@ $('.spoiler button').on('click', function(){
 $('.spoiler').on('click', 'button', function(event){
   console.log(event);
   //mostra o texto do spoiler 
-  $('.spoiler span').show();
+//  $('.spoiler span').show();
   //esconder o botão
   $(event.target).hide();
  
