@@ -3,7 +3,8 @@
 const $button = $('<button>Reveal Spoiler</button>');
 
 //anexar à página web.
-$('.spoiler').append($button);
+//$('.spoiler').append($button);
+$('.spoiler').prepend($button);
 
 // ocultar o spoiler no carregamento da página
 $('.spoiler span').hide();
