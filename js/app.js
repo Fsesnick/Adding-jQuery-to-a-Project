@@ -9,11 +9,12 @@ $('.spoiler button').on('click', function(){
 });
 */
 
-$('.spoiler').on('click', 'button', function(){
+$('.spoiler').on('click', 'button', function(event){
+  console.log(event);
   //mostra o texto do spoiler 
   $('.spoiler span').show();
   //esconder o botão
-  $('.spoiler button').hide();
+  $(event.target).hide();
  
 });
 
